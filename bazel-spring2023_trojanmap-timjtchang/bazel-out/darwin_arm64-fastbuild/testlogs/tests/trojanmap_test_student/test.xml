@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="16" failures="0" disabled="0" errors="0" timestamp="2023-05-02T09:54:16" time="6.577" name="AllTests">
+  <testsuite name="TrojanMapTest" tests="16" failures="0" disabled="0" errors="0" time="6.577">
+    <testcase name="Autocomplete" status="run" time="0.228" classname="TrojanMapTest" />
+    <testcase name="FindPosition" status="run" time="0.229" classname="TrojanMapTest" />
+    <testcase name="CalculateEditDistance" status="run" time="0.208" classname="TrojanMapTest" />
+    <testcase name="FindClosestName" status="run" time="0.222" classname="TrojanMapTest" />
+    <testcase name="CalculateShortestPath_Dijkstra" status="run" time="0.261" classname="TrojanMapTest" />
+    <testcase name="CalculateShortestPath_Bellman_Ford" status="run" time="2.273" classname="TrojanMapTest" />
+    <testcase name="CycleDetection" status="run" time="0.216" classname="TrojanMapTest" />
+    <testcase name="TopologicalSort" status="run" time="0.208" classname="TrojanMapTest" />
+    <testcase name="TSP1" status="run" time="0.205" classname="TrojanMapTest" />
+    <testcase name="TSP2" status="run" time="0.211" classname="TrojanMapTest" />
+    <testcase name="TSP3" status="run" time="0.21" classname="TrojanMapTest" />
+    <testcase name="FindNearby" status="run" time="0.308" classname="TrojanMapTest" />
+    <testcase name="CalculateShortestPath_TrojanPath" status="run" time="1.135" classname="TrojanMapTest" />
+    <testcase name="GetAllLocationsFromCategory2" status="run" time="0.209" classname="TrojanMapTest" />
+    <testcase name="GetLocationRegex2" status="run" time="0.233" classname="TrojanMapTest" />
+    <testcase name="Queries" status="run" time="0.221" classname="TrojanMapTest" />
+  </testsuite>
+</testsuites>

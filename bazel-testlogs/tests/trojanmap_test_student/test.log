@@ -1,0 +1,60 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+Executing tests from //tests:trojanmap_test_student
+-----------------------------------------------------------------------------
+Running main() from gmock_main.cc
+[==========] Running 16 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 16 tests from TrojanMapTest
+[ RUN      ] TrojanMapTest.Autocomplete
+[       OK ] TrojanMapTest.Autocomplete (228 ms)
+[ RUN      ] TrojanMapTest.FindPosition
+[       OK ] TrojanMapTest.FindPosition (229 ms)
+[ RUN      ] TrojanMapTest.CalculateEditDistance
+[       OK ] TrojanMapTest.CalculateEditDistance (208 ms)
+[ RUN      ] TrojanMapTest.FindClosestName
+[       OK ] TrojanMapTest.FindClosestName (222 ms)
+[ RUN      ] TrojanMapTest.CalculateShortestPath_Dijkstra
+My path length: 0.540227miles
+GT path length: 0.540227miles
+My path length: 0.540227miles
+GT path length: 0.540227miles
+[       OK ] TrojanMapTest.CalculateShortestPath_Dijkstra (261 ms)
+[ RUN      ] TrojanMapTest.CalculateShortestPath_Bellman_Ford
+My path length: 0.540227miles
+GT path length: 0.540227miles
+My path length: 0.540227miles
+GT path length: 0.540227miles
+[       OK ] TrojanMapTest.CalculateShortestPath_Bellman_Ford (2273 ms)
+[ RUN      ] TrojanMapTest.CycleDetection
+[       OK ] TrojanMapTest.CycleDetection (216 ms)
+[ RUN      ] TrojanMapTest.TopologicalSort
+[       OK ] TrojanMapTest.TopologicalSort (208 ms)
+[ RUN      ] TrojanMapTest.TSP1
+My path length: 5.98774miles
+GT path length: 5.98774miles
+[       OK ] TrojanMapTest.TSP1 (205 ms)
+[ RUN      ] TrojanMapTest.TSP2
+My path length: 5.98774miles
+GT path length: 5.98774miles
+[       OK ] TrojanMapTest.TSP2 (211 ms)
+[ RUN      ] TrojanMapTest.TSP3
+My path length: 5.98774miles
+GT path length: 5.98774miles
+[       OK ] TrojanMapTest.TSP3 (210 ms)
+[ RUN      ] TrojanMapTest.FindNearby
+[       OK ] TrojanMapTest.FindNearby (308 ms)
+[ RUN      ] TrojanMapTest.CalculateShortestPath_TrojanPath
+My path length: 1.86368miles
+GT path length: 1.86368miles
+[       OK ] TrojanMapTest.CalculateShortestPath_TrojanPath (1135 ms)
+[ RUN      ] TrojanMapTest.GetAllLocationsFromCategory2
+[       OK ] TrojanMapTest.GetAllLocationsFromCategory2 (209 ms)
+[ RUN      ] TrojanMapTest.GetLocationRegex2
+[       OK ] TrojanMapTest.GetLocationRegex2 (233 ms)
+[ RUN      ] TrojanMapTest.Queries
+[       OK ] TrojanMapTest.Queries (221 ms)
+[----------] 16 tests from TrojanMapTest (6577 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 1 test case ran. (6577 ms total)
+[  PASSED  ] 16 tests.
